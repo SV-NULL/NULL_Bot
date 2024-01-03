@@ -11,7 +11,25 @@ Up till now it responds to messages containing the words "anime" and "null", and
 For the bot to run, a .env file with a Discord_Token is required. Without this you cannot run the bot.
 The original token for the S.V. NULL bot will be kept secret and only accessible by the board member responsible for the bot.
 
-If you wish to test the bot yourself, you can create a discord application via the Discord Developer Portal, and create a .env file with the given token.
+#### Step 1:
+Clone the repository to your local machine.
+#### Step 2:
+Create a .env file in the root of the project.
+#### Step 3:
+Add the following line to the .env file:
+```
+bottoken=YOUR_TOKEN_HERE
+```
+#### Step 4:
+Install the required packages by running the following command in the root of the project:
+```
+npm install
+```
+#### Step 5:
+Run the bot by running the following command in the root of the project:
+```
+npm start
+```
 
 ### Collaboration and Open Source:
 Last but not least, this bot is made my the members of the Student Assosciation of the Christian College of Ede, (CHE).
