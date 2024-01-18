@@ -17,7 +17,7 @@ const nullText = require("./messageResponses/NULLResponses.json")
 const nullGif = require("./messageResponses/NULLGifs.json")
 const animeText = require("./messageResponses/Anime.json");
 const animeGif = require("./messageResponses/AnimeGifs.json");
-const bobrGif = require("./messageResponse/BobrGifs.json");
+const bobrGif = require("./messageResponses/BobrGifs.json");
 
 client.on("messageCreate", async (message) => {
     if (message.author.bot) return;
