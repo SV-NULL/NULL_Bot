@@ -19,6 +19,7 @@ const client = new discord.Client({
 })
 
 client.commands = new discord.Collection();
+client.events = new discord.Collection()
 
 client.login(process.env.bottoken)
 
