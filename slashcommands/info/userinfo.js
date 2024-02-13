@@ -116,7 +116,7 @@ module.exports = {
                         { name: "Server Booster", value: serverboostvanaf },
                         { name: "Joinde op", value: `${moment(guildMember.joinedAt).format("LT, D MMMM YYYY")} [${moment(guildMember.joinedAt).fromNow()}]`, inline: true },
                         { name: "Account gemaakt op", value: `${moment(guildMember.user.createdAt).format("LT, D MMMM YYYY")} [${moment(guildMember.user.createdAt).fromNow()}]` },
-                        { name: "Premissions", value: `${longperms}` })
+                        { name: "Permissions", value: `${longperms}` })
                     .setThumbnail(user.user.avatarURL())
                     .setFooter({ text: client.user.username }).setTimestamp()
 
@@ -135,7 +135,7 @@ module.exports = {
                         { name: "Server Booster", value: serverboostvanaf },
                         { name: "Joinde op", value: `${moment(guildMember.joinedAt).format("LT, D MMMM YYYY")} [${moment(guildMember.joinedAt).fromNow()}]`, inline: true },
                         { name: "Account gemaakt op", value: `${moment(guildMember.user.createdAt).format("LT, D MMMM YYYY")} [${moment(guildMember.user.createdAt).fromNow()}]` },
-                        { name: "Premissions", value: `${longperms}` },
+                        { name: "Permissions", value: `${longperms}` },
                         { name: "Server Rank", value: serverrank })
                     .setThumbnail(user.user.avatarURL())
                     .setFooter({ text: client.user.username }).setTimestamp()
